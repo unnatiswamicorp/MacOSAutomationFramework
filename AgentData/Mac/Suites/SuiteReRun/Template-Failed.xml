@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sanity">
+
+	<listeners>
+		<listener class-name="com.agent.core.automation.Listeners.TestListener_Agent" />
+	</listeners>
+	
+	<test name="FailedReRun">
+		<classes>
+
+			<class name="com.agent.core.automation.ios.testController.AppiumTestController_Agent"/>
+
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

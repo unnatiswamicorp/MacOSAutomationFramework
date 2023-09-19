@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webservices>
+	<webService id="Basic " name="BasicSearch" requestType="GET">
+		<tagToVerify key="actionStatus" value="0" type="parameter" />
+	</webService>
+	
+	<webService id="SendMessage" name="SendMessage" requestType="POST">
+		<tagToVerify key="actionStatus" value="0" type="parameter" />
+	</webService>
+	
+		<webService id="DeviceHistory" name="DeviceHistory" requestType="POST">
+		<tagToVerify key="actionStatus" value="0" type="parameter" />
+	</webService>
+	
+		<webService id="LockDevice" name="LockDevice" requestType="POST">
+		<tagToVerify key="actionStatus" value="0" type="parameter" />
+	</webService>
+	
+
+
+	
+</webservices>

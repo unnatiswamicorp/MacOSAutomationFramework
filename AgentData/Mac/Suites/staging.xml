@@ -1,0 +1,80 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Staging">
+
+	<listeners>
+		<listener class-name="com.agent.Mac.InitializeSetup.TestListenerMac" />
+	</listeners>
+
+	<test name="Mac_Sanity">
+		<classes>
+			<class name="com.agent.Mac.InitializeSetup.TestControllerMac" />
+			<class name="com.agent.Mac.MacTestScripts.OpenSafari" />
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

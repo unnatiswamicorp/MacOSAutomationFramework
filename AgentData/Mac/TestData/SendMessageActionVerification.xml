@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testcase>
+
+	<testData name="testData" value="0">
+		<input key="recordsAvailable" value="false"/>
+		<input key="isMessageVerified" value="false"/>
+		<input key="pathOfClicClick" value="/Users/admin/Downloads/cliclick"/>
+	</testData>
+	
+	<webService id="SendMessageToDevice" name="SendMessageToDevice" value="0" requestType="POST">
+		<input key="deviceId" value="#{properties.deviceId}" type="parameter" />
+		<input key="messageTitle" value="Test" type="parameter" />
+		<input key="message" value="This message is to verify Send message" type="parameter" />	
+	</webService>
+	
+		<webService id="SearchActionHistory" name="SearchActionHistory" value="0" requestType="GET">
+		<input key="deviceId" value="#{properties.deviceId}" type="parameter" />
+		<input key="pageSize" value="25" type="parameter" />
+		<input key="pageNumber" value="1" type="parameter" />	
+
+	</webService>
+		
+</testcase>

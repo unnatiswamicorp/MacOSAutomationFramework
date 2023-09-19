@@ -1,0 +1,14 @@
+<properties>
+	<device>
+		<deviceProfile>AutomationiOS6</deviceProfile>
+		<deviceType>Mac</deviceType>
+		<deviceOS>11</deviceOS>
+		<deviceName>Satish iPhone 6S</deviceName>
+		<deviceId>ApplC02QF1YPG8WP</deviceId>
+		<model>Mac</model>
+		<formFactor>phone</formFactor>
+		<profileType>prType</profileType>
+		<imagesFolder>3_0_ios9</imagesFolder>
+		<udid>6279765bfc1744548bec50ddc00780049a3f155c</udid>
+	</device>
+</properties>

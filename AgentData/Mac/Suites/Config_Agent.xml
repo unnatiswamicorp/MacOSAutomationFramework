@@ -1,0 +1,40 @@
+<properties>
+	<EndToEndExecution>false</EndToEndExecution>
+	<framework>
+		<platform>Mac</platform>
+	</framework>
+	<env>
+		<customerType>MDM</customerType>
+		<appVersion>3.00</appVersion>
+	</env>
+	<device>
+		<deviceProfile>DevelopmentDevice</deviceProfile>
+	</device>
+	<suite>iOSAgentSuite</suite>
+	<ftpServer>10.104.26.174</ftpServer>
+	<admin>jprakash25@in.ibm.com</admin>
+	<recipientList>Unnati.Swami1@ibm.com
+	</recipientList>
+	
+	<devicePlatform>Mac</devicePlatform>
+	
+	<buildServerUsername></buildServerUsername>
+	<buildServerPassword></buildServerPassword>
+	<downloadBuilds>Yes</downloadBuilds>
+
+	<updateJira>No</updateJira>
+	<jiraUsername></jiraUsername>
+	<jiraPassword></jiraPassword>
+
+	<STOMappingFile></STOMappingFile>
+	
+	<currentReleaseVersion></currentReleaseVersion>
+
+	<sanityCycleName>Sanity</sanityCycleName>
+	<regressionCycleName>Regression</regressionCycleName>
+	
+	<sendReportToSlack>No</sendReportToSlack>
+	
+	<uploadReportToArtifactory>Yes</uploadReportToArtifactory>
+
+</properties>
